@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(ban.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-repeat: no-repeat;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    color: brown;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+ .itemss{
+    display: inline-block;
+    padding: 0px 12px;
+}
+
+.itemss a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+font-size: 15px;
+text-transform: uppercase;
+position: relative;
+}
+
+
+
+
+.btn{
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    background-color: brown;
+    border-radius: 25px;
+}
+    .cont{
+     top: 50%;
+     left: 50%;
+        width: 50%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        text-align: center;
+    }
+
+    h1.head1 {
+    color: red;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 100px;
+    display:inline-block;
+}
+
+p.para1 {
+    margin-top: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button {
+    margin-top: 12px;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+button:hover{
+    background-color: red;
+    transition: 0.5;
+}
+
+.conth1 {
+    text-align: center;
+    
+}
+
+content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr; */
+    grid-template-rows: 1fr;
+    gap: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.box1{
+    background-color: #f2f2f2;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+.boxx{
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 40%;
+    font-size: 11px;
+    
+}
+
+.pool{
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pool.jpg);
+ position: absolute;
+    background-size: cover;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.pool-btn{
+   
+    padding: 10px 50px;
+
+    
+
+}
+
+.food{
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(food.jpg);
+ position: absolute;
+    background-size: cover;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.air{
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(air.jpeg);
+ position: absolute;
+    background-size: cover;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+
+.box2{
+    background-color: #f2f2f2;
+ 
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+gap: 2px;
+}
+.boxer1{
+    background-color: white;
+    height: 400px;
+    width: 50%;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+.boxer2{
+    background-color: white;
+    height: 400px;
+    width: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+footer{
+    background-color: #f2f2f2 ;
+  
+}
+
+
+.follow {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+ul.flw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    FLEX-DIRECTION: column;
+    flex-wrap: wrap;
+    font-weight: 900;
+}
+
+ul.flw2 {
+    list-style: none;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 11px;
+    flex-direction: column;
+    justify-content: end;
+    font-weight: 900;
+}
+
+.most{
+    display: inline-block;
+    font-size: 10px;
+}
+
+@media (max-width: 680px){
+
+    header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(ban.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  
+    background-repeat: no-repeat;
+}
+
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .logo{
+    color: brown;
+    font-size: 21px;
+    padding-left: 7px;
+}
+    .itemss{
+        display: inline-block;
+        padding: 0px 7px;
+    }
+
+    .itemss a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+font-size: 10px;
+text-transform: uppercase;
+position: relative;
+padding-left: 10px;
+}
+
+.btn{
+    padding: 5px 5px;
+    border: none;
+    color: white;
+    background-color: brown;
+    border-radius: 25px;
+    font-size: 10px;
+}
+
+.cont{
+     top: 50%;
+     left: 50%;
+        width: 100%;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        text-align: center;
+    }
+
+    content{
+display: block;
+width: 100%;
+    }
+
+.box1{
+    margin-bottom: 10px;
+}
+.most{
+    display: inline-block;
+  
+}
+
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.boxer1{
+    width: 100%;
+
+}
+.boxer2{
+    width: 100%;
+    
+}
+
+.follow1 {
+    display: grid;
+    
+}
+
+ul.flw{
+font-size: 12px;
+cursor: pointer;
+    }
+
+    
+ul.flw2{
+    font-size: 13px;
+    cursor: pointer;
+}
+}
+
+    </style>
+
+
+</head>
+<body>
+   <header>
+<div class="nav">
+    <div class="logo"><p>Hoteleo</p></div>
+    <ul class="items">
+        <li class="itemss"><a href="#">home</a></li>
+        <li class="itemss"><a href="#">about us</a></li>
+        <li class="itemss"><a href="#">sign in</a></li>
+    </ul>
+    <button class="btn">find more</button>
+</div>
+
+<div class="cont">
+    <h1 class="head1">Hotel Elegance</h1>
+    <p class="para1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ut architecto, provident nihil inventore voluptatem alias? Fugiat dicta ad officiis dignissimos tenetur iure repudiandae exercitationem?</p>
+    <button>Register Now</button>
+</div>
+   </header>
+   <h1 class="conth1">Why <span style="color: red;">Us?</span></h1>
+   <content>
+   
+    <div class="box1">
+        <ol class="boxx">
+            <h3 class="most" style="text-align: center;font-weight: 700;" >Most Rated</h3>
+            <li>Cheap Price</li>
+            <li>Best Services</li>
+            <li>24/7 wi-fi</li>
+            <li>Swimming pool</li>
+            
+        </ol>
+    </div>
+    <div class="box1">
+     <div class="pool">
+<h3 style="text-align: center; color: aliceblue; padding-top: 30px; text-transform: uppercase;">best pools</h3>
+<button  class="pool-btn">More Info</button>
+     </div>
+    </div>
+
+    <div class="box1">
+        <div class="food">
+            <h3 style="text-align: center; color: aliceblue; padding-top: 30px; text-transform: uppercase;">best quality food</h3>
+            <button  class="pool-btn">More Info</button>
+        </div>
+    </div>
+
+    <div class="box1">
+        <div class="air">
+            <h3 style="text-align: center; color: aliceblue; padding-top: 30px; text-transform: uppercase;">near airport</h3>
+            <button  class="pool-btn">More Info</button>
+    </div>
+    </div>
+
+
+     
+</content>
+<h1 style="text-align: center;">Location</h1>
+<div class="box2">
+    <div class="boxer1">
+        <div class="map">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13649.520159378708!2d77.072815!3d31.210198799999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3905711a3c7d87bb%3A0x7a8f9fb754cc09e6!2sNagar%2C%20Himachal%20Pradesh%20171103!5e0!3m2!1sen!2sin!4v1723116926002!5m2!1sen!2sin" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="boxer2">
+        <h3>More</h3>
+ <p style="overflow: hidden;">Lorem ipsum dolor sit amet,  Temporibus numquam repudiandae quaerat ducimus nobis recusandae minima dicta, repellat doloremque pariatur omnis debitis cumque impedit obcaecati blanditiis quidem quibusdam fugiat veniam tempora illo illum atque voluptate quia nesciunt. Adipisci distinctio nulla magni quibusdam, facilis corporis, ipsam, libero cupiditate ex repellat repellendus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis rerum quasi culpa molestias esse accusantium soluta assumenda sequi voluptas quos? Enim deleniti, eum a ipsam alias magnam velit! Quia, et.</p>
+    </div>
+</div>
+<footer>
+    <div class="follow">
+      <ul class="flw">
+        <li>Ph : 939297297</li>
+        <li>E-mail : Ho@gmail.com</li>
+      </ul>
+
+      <ul class="flw2">
+        <li>instagram.com</li>
+        <li>hotel.co</li>
+        <li>fb/hotel.com</li>
+      </ul>
+       
+        </div>
+    </div>
+</footer>
+</body>
+</html>
